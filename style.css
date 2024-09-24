@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background-color: white;
+    font-family: sans-serif;
+}
+
+.Navbar{
+    display: flex;
+    justify-content:space-between ;
+    background-color: rgb(75, 75, 255);
+    color: white;
+    padding: 25px;
+    font-family: sans-serif;
+    
+}
+
+.Navbar .inName {
+    gap: 20px;
+    display: flex;
+}
+
+.Navbar .inName .welcome {
+    background-color: black;
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    
+}
+.Navbar .inName .sign-out {
+    background-color: white;
+    color: rgb(75, 75, 255);
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+    
+}
+
+.Navbar .inName .admin {
+    padding: 10px;
+}
+.Navbar .inName .user {
+    padding: 10px;
+}
+
+.dashboard {
+    background-color: rgba(0, 128, 255, 0.163);
+    color: ;
+    font-family: sans-serif;
+    padding: 60px;
+}
+
+.dashboard .isine {
+    justify-content: center;
+    display: flex;
+}
+
+.isi-boy {
+    background-color: rgba(0, 229, 255, 0.316);
+    font-family: sans-serif;
+    font-size: 10px;
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 15px;
+    border-radius: 5px;
+}
